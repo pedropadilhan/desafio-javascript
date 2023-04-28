@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+</head>
+<body>
+    <h1>antes e depois</h1>
+    <button onclick="evento()">Antecessor e Sucessor</button>
+
+    <script>
+        function evento(){
+            var numero = prompt('Digite um número qualquer');
+            var antecessor = numero - 1;
+            var sucessor = parseInt(numero) + 1;
+            alert(`Antes de ${numero}, temos o número ${antecessor}.\nDepois de ${numero}, temos o numero ${sucessor}`);
+        }
+    </script>
+</body>
+</html>
